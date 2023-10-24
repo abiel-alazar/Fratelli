@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: fixed; 
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform:"translate(-50%, -50%)"; */
+  z-index: "-1";
+  background-size: cover;
+ }
+ /* .container{
+  position: absolute;
+  background-color: black;
+  top: 0;
+ } */
+
+ @import "~react-image-gallery/styles/css/image-gallery.css";
